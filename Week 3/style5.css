@@ -1,0 +1,24 @@
+body{
+    background-color: #efefef;
+}
+
+h1{
+    text-align: center;
+    text-decoration: dashed;
+    color: brown;
+    text-indent: 5px;
+}
+
+h2{
+    text-align: justify;
+    color: crimson;
+    text-transform: initial;
+}
+
+
+
+p{
+    text-align: justify;
+    color: lightblue;
+    letter-spacing: 12px;
+}
