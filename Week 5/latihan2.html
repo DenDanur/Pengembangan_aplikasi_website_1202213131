@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4505</title>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('gambar1');
+            if (image.src.match("gambar1")) {
+                image.src = "gambar2.svg";
+                
+            } else {
+                image.src = "gambar1.svg";
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <h1>Mengganti Gambar</h1>
+    <img src="gambar1.svg" alt="gambar2" width="100px" id="gambar1" onclick="changeImage()">
+    <p>Klik gambar untuk merubah</p>
+</body>
+</html>
